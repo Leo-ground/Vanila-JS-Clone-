@@ -1,16 +1,13 @@
-const title = document.querySelector("#title");
-
 /*
-function handleResize() {
-  console.log("I have been resized");
+if ("lee" === "leo") {
+  console.log("hi");
+} else {
+  console.log("ho");
 }
-
-window.addEventListener("resize", handleResize);  <---when I resize, ation
-window.addEventListener("resize", handleResize()); <-----automatically action
 */
 
-function handleclick() {
-  title.style.color = "blue";
+if (20 > 5 && "nicolas" === "nicolas") {
+  console.log("yes");
+} else {
+  console.log("no");
 }
-
-title.addEventListener("click", handleclick);
