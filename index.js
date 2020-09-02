@@ -1,5 +1,16 @@
-const title = document.getElementById("title");
+const title = document.querySelector("#title");
 
-title.innerHTML = "Hi! From JS";
-title.style.color = "red";
-document.title = "I own you now";
+/*
+function handleResize() {
+  console.log("I have been resized");
+}
+
+window.addEventListener("resize", handleResize);  <---when I resize, ation
+window.addEventListener("resize", handleResize()); <-----automatically action
+*/
+
+function handleclick() {
+  title.style.color = "blue";
+}
+
+title.addEventListener("click", handleclick);
