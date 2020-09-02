@@ -1,16 +1,12 @@
-/*String
-const what = "Nicolas";
+/*const monday = "Mon";
+const tue = "Tue";
+const wed = "Wed";
+const thu = "Thu";
+const fri = "Fri";
 
-console.log(what);
-*/
-/* Boolean
-const wat=true;
-*/
-
-/* Number
-const wat=123123;
+console.log(monday, tue, wed, thu, fri);
 */
 
-/*Float
-const wat = 55.1;
-*/
+const daysOfWeek = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+
+console.log(daysOfWeek[2]);
