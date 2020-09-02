@@ -1,13 +1,19 @@
-/*
-if ("lee" === "leo") {
-  console.log("hi");
-} else {
-  console.log("ho");
-}
-*/
+const title = document.querySelector("#title");
 
-if (20 > 5 && "nicolas" === "nicolas") {
-  console.log("yes");
-} else {
-  console.log("no");
+const BASE_COLOR = "rgb(52, 73, 94)";
+const OTHER_COLOR = "#7f8c8d";
+
+function handleClick() {
+  const currentColor = title.style.color;
+  if (currentColor === BASE_COLOR) {
+    title.style.color = OTHER_COLOR;
+  } else {
+    title.style.color = BASE_COLOR;
+  }
+} /* color domain https://flatuicolors.com/palette/defo*/
+
+function init() {
+  title.style.color = BASE_COLOR;
+  title.addEventListener("click", handleClick);
 }
+init();
