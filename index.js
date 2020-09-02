@@ -1,5 +1,16 @@
-console.log("Im Working. Im Js. Im Beautiful. Im worth it ");
-const a = 221; /*constant*/
-let b = a - 5;
-a = 4; /* it makes error because we created A contantly*/
-console.log(b, a);
+/*String
+const what = "Nicolas";
+
+console.log(what);
+*/
+/* Boolean
+const wat=true;
+*/
+
+/* Number
+const wat=123123;
+*/
+
+/*Float
+const wat = 55.1;
+*/
