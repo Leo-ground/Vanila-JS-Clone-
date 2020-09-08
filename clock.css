@@ -8,10 +8,54 @@
 }
 
 body {
-  color: #34495e;
+  color: white;
   background-color: #2c3e50;
 }
 
+.js-clock {
+  font-size: 120px;
+  font-weight: 500;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.js-greetings {
+  margin-top: 20px;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.js-toDoForm {
+  margin-top: 10px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.inputname {
+  margin: 5px;
+  border-radius: 30px;
+  padding: 10px;
+  width: 250px;
+  font-size: 20px;
+}
+
+.inputcase {
+  border-radius: 30px;
+  padding: 10px;
+  width: 150px;
+  font-size: 20px;
+}
+
+.js-toDoList {
+  margin-top: 5px;
+  font-size: 20px;
+  font-weight: 500;
+}
 @keyframes fadeIn {
   from {
     opacity: 0;
